@@ -1,0 +1,30 @@
+/*
+Template Name: Velzon - Admin & Dashboard Template
+Author: Themesbrand
+Website: https://themesbrand.com/
+Contact: support@themesbrand.com
+File: Custom Css File
+*/
+.dashboard-card {
+  transition: all 0.25s ease;
+  // cursor: pointer;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+.menu-link {
+  position: relative;
+}
+
+.menu-arrow {
+  margin-left: auto;
+  transition: transform 0.25s ease;
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.menu-link[aria-expanded="true"] .menu-arrow {
+  transform: rotate(90deg);
+}
